@@ -11,7 +11,7 @@ export default function MatchStatsUS() {
     setError(null);
     setMatchData(null);
     try {
-      const response = await fetch("https://matchstats.us.ffesports.com/api/match_stats/search", {
+      const response = await fetch("https://matchstats.sea.ffesports.com/api/match_stats/search", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
